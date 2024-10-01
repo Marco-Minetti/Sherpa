@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+body {
+    background-color: #8ECAE6;
+}
+
+h1 {
+    color: #FFB703;
+}
+
+.title {
+    text-align: center;
+}
+
+.central_group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.information {
+    margin: 1.875rem;
+    width: 21.875rem;
+    height: 31.25rem;
+}
+
+.center {
+    text-align: center;
+    margin: 1.875rem;
+    width: 28.125rem;
+    height: 31.25rem;
+}
+
+.insert {
+    color: #FFB703;
+    height: 1.25rem;
+    margin: 0.625rem;
+    border: 0.063rem solid blue;
+}
+
+.edit {
+    margin: 1.875rem;
+    width: 21.875rem;
+    height: 31.25rem;
+}
+
+.edit > div {
+    margin: 10rem 1.675rem 1.675rem 1.675rem;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    color: #FFB703;
+    margin: 1rem;
+}
+
+img {
+    border: 0.063rem solid #FFB703;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 20rem;
+    height: 18.75rem;
+}
+
+input {
+    width: 15rem;
+    margin-top: 2rem;
+    background-color: #FFB703;
+    border: 1px solid #8ECAE6;
+}
+
+div {
+    background-color: #023047;
+    border: 0.063rem solid white;
+    border-radius: 0.5rem;
+}
